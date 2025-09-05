@@ -1,0 +1,60 @@
+2025-09-05 20:48:44,513 - data_preprocessing - DEBUG - Data loaded properly
+2025-09-05 20:48:44,514 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-09-05 20:48:44,516 - data_preprocessing - DEBUG - Target column encoded
+2025-09-05 20:48:44,521 - data_preprocessing - DEBUG - Duplicates removed
+2025-09-05 20:48:44,523 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\mehul/nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Local\\Programs\\Python\\Python312\\nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Local\\Programs\\Python\\Python312\\share\\nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Local\\Programs\\Python\\Python312\\lib\\nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-05 20:48:44,524 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\mehul/nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Local\\Programs\\Python\\Python312\\nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Local\\Programs\\Python\\Python312\\share\\nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Local\\Programs\\Python\\Python312\\lib\\nltk_data'
+    - 'C:\\Users\\mehul\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-05 20:51:56,352 - data_preprocessing - DEBUG - Data loaded properly
+2025-09-05 20:51:56,352 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-09-05 20:51:56,354 - data_preprocessing - DEBUG - Target column encoded
+2025-09-05 20:51:56,356 - data_preprocessing - DEBUG - Duplicates removed
+2025-09-05 20:52:06,957 - data_preprocessing - DEBUG - Text column transformed
+2025-09-05 20:52:06,957 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-09-05 20:52:06,958 - data_preprocessing - DEBUG - Target column encoded
+2025-09-05 20:52:06,959 - data_preprocessing - DEBUG - Duplicates removed
+2025-09-05 20:52:09,678 - data_preprocessing - DEBUG - Text column transformed
+2025-09-05 20:52:09,687 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
